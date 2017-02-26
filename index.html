@@ -4,8 +4,43 @@
 
 <head>
   <title>Updated Title</title>
-</head>
+  <meta charset="utf-8"/>
+  <style>
+    ul {
+      text-transform: uppercase;
+      list-style: none;
+      font-size: 20px;
+      font: #aaa;
+      width: 20%;
+      margin: 0 auto;
+      text-align: center;
+      vertical-align: middle;
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+    }
 
+    li {
+      padding-bottom: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      line-height: 50px;
+    }
+    li:last-child {
+      border-bottom: none;
+    }
+
+    li:nth-child(2n) {
+      background-color: #ff2b2b;
+    }
+
+    li:nth-child(2n+1) {
+      background-color: #1111ff;
+    }
+
+  </style>
+
+  </head>
 <body>
   <header>
     <nav>
@@ -16,7 +51,6 @@
         <li>List Item 4</li>
         <li>List Item 5</li>
       </ul>
-
     </nav>
 
   </header>
